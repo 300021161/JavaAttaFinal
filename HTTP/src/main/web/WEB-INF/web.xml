@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>productget</servlet-name>
+        <servlet-class>org.example.GetProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productget</servlet-name>
+        <url-pattern>/productget</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>productpost</servlet-name>
+        <servlet-class>org.example.PostProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productpost</servlet-name>
+        <url-pattern>/productpost</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>productdelete</servlet-name>
+        <servlet-class>org.example.DeleteProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productdelete</servlet-name>
+        <url-pattern>/productdelete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>productput</servlet-name>
+        <servlet-class>org.example.PutProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productput</servlet-name>
+        <url-pattern>/productput</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>restaurantpost</servlet-name>
+        <servlet-class>org.example.PostRestaurantServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>restaurantpost</servlet-name>
+        <url-pattern>/restaurantpost</url-pattern>
+    </servlet-mapping>
+
+</web-app>

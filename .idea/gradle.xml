@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Console" />
+            <option value="$PROJECT_DIR$/DataBase" />
+            <option value="$PROJECT_DIR$/HTTP" />
+            <option value="$PROJECT_DIR$/Main" />
+            <option value="$PROJECT_DIR$/ReadFromJsonInBD" />
+            <option value="$PROJECT_DIR$/readFromJson" />
+            <option value="$PROJECT_DIR$/task" />
+            <option value="$PROJECT_DIR$/untitled" />
+            <option value="$PROJECT_DIR$/writeInJson" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
